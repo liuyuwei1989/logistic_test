@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+<table name="T_USER" schema="LOGISTIC" class="User">
+	<primary-key>
+		<generator class="uuid"></generator>
+	</primary-key>
+</table>
+<table name="STAFF" schema="LOGISTIC" class="Staff">
+	<primary-key>
+		<generator class="uuid"></generator>
+	</primary-key>
+</table>
+<table name="DECIDEZONE" schema="LOGISTIC" class="Decidezone">
+	<primary-key>
+		<generator class="uuid"></generator>
+	</primary-key>
+</table>
+<table name="PARTITION" schema="LOGISTIC" class="Partition">
+	<primary-key>
+		<generator class="uuid"></generator>
+	</primary-key>
+</table>
+<table name="REGION" schema="LOGISTIC" class="Region">
+	<primary-key>
+		<generator class="uuid"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>
